@@ -1,0 +1,38 @@
+{
+  "name": "3h-count",
+  "version": "0.1.0",
+  "description": "A utility program that displays some information about the given file(s).",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": "src/cli.js",
+  "scripts": {
+    "test:project": "node src/cli src/**/*.*",
+    "test:file": "node src/cli -f -r src -- **/*.*",
+    "test:help": "node src/cli --help"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huang2002/3h-count.git"
+  },
+  "keywords": [
+    "count",
+    "list",
+    "ls",
+    "file",
+    "folder",
+    "directory",
+    "tree",
+    "project",
+    "3h"
+  ],
+  "author": "3h",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/huang2002/3h-count/issues"
+  },
+  "homepage": "https://github.com/huang2002/3h-count#readme",
+  "dependencies": {
+    "3h-cli": "^4.0.0",
+    "fast-glob": "^3.3.1"
+  }
+}
