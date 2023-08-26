@@ -1,6 +1,6 @@
 {
   "name": "3h-count",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A utility program that displays some information about the given file(s).",
   "type": "module",
   "main": "src/index.js",
