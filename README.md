@@ -35,7 +35,7 @@ Options:
   --mode, -m <file|project>     Display mode. (default: project)
   --file, -f                    Shortcut for "--mode file".
   --project, -p                 Shortcut for "--mode project".
-  --root, -r                    The root directory in which to search.
+  --root, -r <path>             The root directory in which to search.
   --include-dot-files, -d       Include files whose name begin with a period.
   --no-summary, -S              Omit summary section in file mode.
   -- [globs...]                 Additional file(s) to include.

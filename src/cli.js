@@ -40,6 +40,7 @@ program
     .option({
         name: '--root',
         alias: '-r',
+        value: '<path>',
         help: 'The root directory in which to search.',
     })
     .option({
